@@ -1,0 +1,36 @@
+/* .food-card{
+    width: 18rem;
+    max-width: 20rem;
+    height: 20rem;
+    background-color: red;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+} */
+.my-masonry-grid{
+    
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -30px;
+  padding: 10px;
+}
+
+ .my-masonry-grid_column  div {
+    margin-bottom: 15px !important;
+  }
+
+  .my-masonry-grid {
+    margin-left: -15px; 
+  }
+  .my-masonry-grid_column {
+    padding-left: 15px; 
+  }
+
+
+.food-img{
+    display: flex;
+    height: 100%;
+    border-radius: 20px;
+}

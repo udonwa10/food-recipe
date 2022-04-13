@@ -1,0 +1,21 @@
+.searchForm input{
+    border: 1px solid #C89D7C;
+}
+.searchForm input:focus{
+   outline: none;
+
+}
+.search-form{
+    display: flex;
+    justify-content: center;
+}
+
+.searchForm button{
+    background-color:#C89D7C ;
+    color: #fff;
+    padding: 10px;
+}
+.searchForm{
+    padding: 10px;
+    display: flex;
+}

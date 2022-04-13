@@ -1,0 +1,42 @@
+.recipe{
+    display: flex;
+    justify-content: right;
+    position: fixed;
+    width: 100%;
+}
+.bg-img{
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+}
+.ingredients ul{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+.ingredient_recipes{
+    max-width:700%;
+    width: 500px;
+    color: white;
+    z-index: 1;
+    background-color: #fff;
+    padding: 1rem;
+    overflow-y:scroll ;
+    background: rgba( 200, 157, 124, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.ingredient_recipes::-webkit-scrollbar{
+    width: 5px;
+}
+
+
+
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 10px;
+}
